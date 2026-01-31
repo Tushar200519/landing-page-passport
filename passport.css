@@ -257,58 +257,30 @@ body{
   color:#444;
 }
 
-/* Responsive */
 @media (max-width: 768px){
-  .grid{
-    grid-template-columns:1fr;
-  }
-  .contact-grid{
-    grid-template-columns:1fr;
-  }
-  .menu{
-    gap:12px;
-  }
-  .hero-content h1{
-    font-size:28px;
-  }
-}
-.zoom-img{
-  transition: 0.3s ease;
-  cursor: pointer;
-}
 
-.zoom-img:hover{
-  transform: scale(1.05);
-}
-.hero-content p{
-  color: #ffffff;                 /* Pure white */
-  font-weight: 400;
-  text-shadow: 0 3px 14px rgba(0,0,0,0.55);  /* Glow effect */
-}
-
-.hero-content p{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-  line-height: 1.85;
-  letter-spacing: 0.25px;
-  color: rgba(255,255,255,0.88);
-  font-weight: 300;
-}
-@media (max-width: 768px){
   .nav{
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    align-items: center;
   }
 
   .menu{
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 14px;
+    display: flex;
+    flex-wrap: nowrap;          
+    overflow-x: auto;           
+    white-space: nowrap;
+    gap: 16px;
+    padding-bottom: 4px;
+  }
+
+  .menu::-webkit-scrollbar{
+    height: 0px;                
   }
 
   .menu a{
     font-size: 11px;
   }
 }
+
 
 
