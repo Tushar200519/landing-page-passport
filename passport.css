@@ -294,3 +294,21 @@ body{
   color: rgba(255,255,255,0.88);
   font-weight: 300;
 }
+@media (max-width: 768px){
+  .nav{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .menu a{
+    font-size: 11px;
+  }
+}
+
+
