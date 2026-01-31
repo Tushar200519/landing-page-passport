@@ -64,10 +64,6 @@ body{
   font-weight:500;
 }
 
-.menu a.active{
-  color:var(--gold);
-}
-
 /* Hero */
 .hero{
   height:420px;
@@ -257,17 +253,6 @@ body{
   color:#444;
 }
 
-.menu a{
-  display: inline-block;
-  padding: 6px 10px;
-  line-height: 1;
-  vertical-align: middle;
-}
-
-.menu a.active{
-  position: relative;
-  top: 0;
-}
 
 
 
