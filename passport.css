@@ -251,9 +251,9 @@ body{
   transform: scale(1.05);
 }
 .hero-content p{
-  color: #ffffff;                 /* Pure white */
+  color: #ffffff;                 
   font-weight: 400;
-  text-shadow: 0 3px 14px rgba(0,0,0,0.55);  /* Glow effect */
+  text-shadow: 0 3px 14px rgba(0,0,0,0.55);  
 }
 
 .hero-content p{
@@ -311,7 +311,7 @@ body{
 
 /* Hover effect */
 .nav-links a:hover{
-  color: #d4a017; /* premium golden */
+  color: #d4a017; 
   transform: translateY(-2px);
 }
 
@@ -363,7 +363,7 @@ header{
     padding: 6px 8px;
   }
 }
-/* ===== MOBILE NAV FIX ===== */
+
 @media (max-width: 768px) {
 
   header{
@@ -379,7 +379,7 @@ header{
     padding: 12px 10px;
   }
 
-  /* Logo image ছোট হবে */
+  
   .logo img{
     width: 220px;
     max-width: 90%;
@@ -387,7 +387,7 @@ header{
     display: block;
   }
 
-  /* Menu center হবে */
+  
   .nav-links{
     display: flex;
     justify-content: center;
@@ -403,5 +403,6 @@ header{
     text-align: center;
   }
 }
+
 
 
